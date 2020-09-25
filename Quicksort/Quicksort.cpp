@@ -17,8 +17,6 @@ void quicksort(int rangeStart, int rangeEnd) {
 	//cout << endl << "QS group" << endl;
 	//for (int i = rangeStart; i <= rangeEnd; i++)
 		//cout << numbercases[i] << " ";
-
-
 	if (rangeEnd - rangeStart < 1)
 		return;
 
@@ -42,7 +40,9 @@ int main()
 	quicksort(0, 9);
 
 	for (int i = 0; i < 10; i++)
-		cout << numbercases[i] << " " << endl;
+		cout << numbercases[i] << " ";
+
+	cout << endl;
 	system("pause");
 	return 0;
 }
